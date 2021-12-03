@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		body{background-color: navy; }
+	</style>
+	<title>Muahaha</title>
+	
+</head>
+<body>
+	<script>
+		var guess;
+		guess = window.prompt("Guess a number form 1 to 10")
+		var rand = Math.floor((Math.random()*10)+1);
+
+		while(guess != rand){
+			alert('U R wrong!');
+			guess = window.prompt("Guess a number form 1 to 10");
+		}alert('You are right!!');
+	</script>
+</body>
+</html>
